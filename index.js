@@ -9,8 +9,8 @@ const startRouting = require("./configs/routing");
 async function start() {
   const app = express();
   await startMongo();
-  startRouting(app);
   startExpress(app);
+  startRouting(app);
 }
 
 start();
