@@ -27,7 +27,7 @@ async function startExpress(app) {
       })
     );
 
-    app.listen(PORT, () => console.log(`Hey, Listen!!! ${PORT}`));
+    app.listen(PORT, () => console.log(`Hey, Listen!!! Express on Port: ${PORT}`));
   } catch (error) {
     console.log(error);
   }
