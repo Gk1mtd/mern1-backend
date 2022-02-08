@@ -52,7 +52,7 @@ function startRouter(app) {
       return res.status(500).json(error);
     }
   });
-  app.use("/", router);
+  app.use("/api", router);
 }
 
 module.exports = startRouter;
